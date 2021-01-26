@@ -13,30 +13,40 @@
     <title>My Portifolio</title>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css"/>
-</head>
-    
-<body>
-    <div class="city-image row m-0">
-		<nav class="navbar navbar-dark navbar-expand-sm w-100 pb-0 pt-0">
-			<button class="navbar-toggler ml-auto mr-4" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+	<style>
+		* {
+			max-width: 100%;
+		}
+
+		p {
+			margin: 0;
+		}
+
+	</style>
+  </head>
+  <body>
+		<div class="city-image row m-0">
+			<nav class="navbar navbar-dark navbar-expand-sm w-100 pb-0 pt-0">
+				<button class="navbar-toggler ml-auto mr-4" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span></button>
 
-			<div class="collapse navbar-collapse text-right" id="navbarNavDropdown">
-				<ul class="navbar-nav mx-auto">
-					<li class="nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-					<li class="nav-item mr-2"><a class="nav-link" href="#skills">Skills</a></li> 
-					<li class="nav-item mr-2"><a class="nav-link" href="#contact">Contact</a></li> 
-					<li class="nav-item mr-2"><a class="nav-link" href="assets/cv/dev.pdf" target="_blank">CV</a></li> 
-				</ul>
+				<div class="collapse navbar-collapse text-right" id="navbarNavDropdown">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+						<li class="nav-item mr-2"><a class="nav-link" href="#skills">Skills</a></li> 
+						<li class="nav-item mr-2"><a class="nav-link" href="#contact">Contact</a></li> 
+						<li class="nav-item mr-2"><a class="nav-link" href="assets/cv/dev.pdf" target="_blank">CV</a></li> 
+					</ul>
+				</div>
+			</nav>
+			<div class="paratext col-12 mx-auto">
+				<div class="h1 m-0 intro"> Hi, I'm Mohammad</div>
 			</div>
-        </nav>
-    </div>
-    <div class="paratext col-12 mx-auto">
-                <div class="h1 m-0 intro"> Hi, I'm Mohammad</div>
-            
-    </div>
-        
-	    <section class="section1 section-dark container-fluid">
+
+		</div>	
+
+		<section class="section1 section-dark container-fluid">
 		
 			<p class= "d-sm-inline-flex">A highly motivated trouble-shooter with a broad range of IT skills who is reliable and committed to
 			benefiting the business functions and ensuring work is performed with quality and efficiency. I thrive in
@@ -53,9 +63,10 @@
 					<span>What I bring to</span>
 					<span>the table</span>
 				</div>
-            </div>
-        </div>
-        <section class="section2 section-dark container-fluid px-2 pb-0">
+			</div>
+
+		</div>	
+		<section class="section2 section-dark container-fluid px-2 pb-0">
 			<div class="row mx-auto col-10 carousel slide" id="carouselExampleControls"  data-ride="carousel">
   				<div class="carousel-inner">
     				<div class="carousel-item active">
@@ -94,18 +105,18 @@
 		</div>
 	</div>
 
-        </section>
-        
-        <div id="contact" class="meeting-image row m-0">
+		</section>
+
+		<div id="contact" class="meeting-image row m-0">
 			<div class="paratext col-12 m-auto">
 				<div class="border">
 					<span>LETS MAKE</span>
 					<span>SOMETHING</span>
 				</div>
 			</div>
-        </div>
-        
-        <section class="section3 section-dark container-fluid">
+		</div>
+				
+		<section class="section3 section-dark container-fluid">
 			
 		<form>	
 			 <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
@@ -122,11 +133,10 @@
     			<label class="form-check-label" for="exampleCheck1">Confirm submission</label>
   			</div>
  			 <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+		</form>
+		</section>
 
-        </section>
-
-    	<footer class="navcontainer mx-auto container-fluid">
+	<footer class="navcontainer mx-auto container-fluid">
 		<ul class="socials" id="navlist">
 			<li id="active"><a href="#" id="current"></a></li>
 			<li><a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook fa-lg"></i> </a></li>
@@ -146,8 +156,5 @@
         crossorigin="anonymous"></script>
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
-</body>
-
-    
+  </body>
 </html>
