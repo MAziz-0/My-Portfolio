@@ -166,3 +166,28 @@ div .frame {
 	color: #f5f5f5;
 	padding: 10%;
 }
+
+/* ________________________________________________ Form*/
+
+form {
+	margin: 0 auto;
+	padding: 20px;
+	width: 100%;
+	max-width: 800px;
+	
+}
+.form-check{
+	margin-top: 1rem;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #023040;
+	border-color: #fafafa;
+}
+
+input[type=checkbox], input[type=radio] {
+	margin-top: 7px;
+}
