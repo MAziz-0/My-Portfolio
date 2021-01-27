@@ -4,7 +4,6 @@
 body, html{
 	font-family: Lato;
 	font-size: 15px;
-	font-weight: 450px;
 	color: #5e5e5e;
 	margin: 0;
 	height: 100%;
@@ -111,8 +110,10 @@ footer ul {
 	text-decoration: none;
 }
 
-@media (max-width: 350px;){
-	padding: 10px 3rem !important;
+@media (max-width: 350px){
+    .socials{
+    padding: 10px 3rem !important;
+    }
 }
 
 /* ________________________________________________ Background images*/
