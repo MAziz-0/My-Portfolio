@@ -24,67 +24,127 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+What methods I used to create a responsive and appealing website.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Feature 1 - The Bootstrap based Navigation toggler was used to ensure a navigation bar that is both stylish and responsive to modern websites and smartphones. When using the website on a low pixel count the toggler uses the three line toggler (also known as the hamburger toggler) to minimise and maximise the menu.
+- Feature 2 - Using Parallax scrolling is a feature intended as a design choice to make the website appealing and easy on the eyes. Potential employers or fellow developers are the target audience so I deemed it necessary to create a website that had high performance and an aesthetic value.
+- Feature 3 - Bootstrap Carousel was used to create a modern and automated approach to displaying information, having a moving slide alongside a parallax scroll feature was used to make the website look more dynamic and animated. This is also necessary to fit more information in a single scrolling page without having to link new pages to target.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [HTML]
+    - The project uses **HTML** to create the basic content
+
+- [CSS]
+    - The project uses **CSS** to style the HTML
+
+- [Bootstrap]
+    - The project uses **Bootstrap Framework** to utilise its highly optimised feature set.
+
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+1. Navigation Bar:
+    1. Hover on navigation bar was tested and worked.
+    2. Checked each navigation option is connected and linked to relevant sections.
+    3. Used appropriate styling such as padding and margin to center align the menu as intended, tested in responsive mode.
+    4. Tested at lowest pixel count to check if the Bootstrap hamburger toggler is functional as intended.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+2. Background Images / Section Styling:
+    1. Tested the website on a lower brightness and found opacity to be too high - lowered opacity to retain image quality.
+    2. Originally used a pastelle blue and mint font color for sections but this did not work well with images. Tested darker colors and changed font.
+    3. Checked responsiveness and noticed bottom padding would change as text would push sections into other sections. Used media queries to set the text formatting.
+    4. Lowered opactiy on headings and on Title background image for a better user experience, made sure all images are also related to section headings.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+3. Bootstrap Carousel Slides with Prev/Next buttons:
+    1. Tested the interval speed which was inconsistent, changed each slide transition to 7000ms.
+    2. Buttons are working without any issues when tested. Increased size and made responsive to use on smaller screens.
+    3. Icon seemed to small, so changed to a larger Bootstrap size.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+4. Contact form:
+    
+    1. Tried and tested all fields to maintain a error message if the form is incorrectly filled in.
+    2. Tried to submit without a real email address and received correct error.
+    3. Created a confirmation button and tested if error appears if all data is filled in but checkbox is left out.
+    4. Tested all form fields with correct information and submitted successfully.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+My-Portfolio is a single scrolling page which works well on both Desktop screens, Ipad screens and most smartphones.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+There was some issues for phones with a pixel count smaller then 350 pixels but I was unable enforce a media query as the content would be undermined.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Bugs
+
+1. White space underneath each section. 
+
+Fix: Set margin and padding to 0, used internal CSS to set max-width and margin size for Paragraphs.
+
+2. Section heading borders overlapping when reducing screen size.
+
+Fix: Changed sections into fluid containders and utilised m-auto and reduces sizes of borders and text. Changed Section 2 into a span fit larger content.
+
+3. Unable to change padding and margin for background images.
+
+Fix: Used display: flex instead of Position element to have more room for styling.
+
+4. Excess padding on Navigation bar.
+
+Fix: used py-0 to reduce padding.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+1. Create a GitHub account on github.com.
+2. Download either GitHub for Mac or GitHub for Windows or use the Browser version, whichever is convenient.
+3. Log into Github in app or in browser.
+4. "Install Command Line Tools", just in case you want to start using the command line later in life. This is for the app version.
+5. Create a new repository in your GitHub application. Name it your-username.github.io. The name is very important. Note the folder that GitHub is saving the repository to. Make sure the "Push to GitHub?" box is checked.
+6. Move your website's files into the folder that GitHub just created when you made the repository. You can add this manually or commit through a terminal push. IMPORTANT: Your homepage HTML file must be called "index.html", and it must exist in the top-level directory.
+7. You should now see your files in the app or browser. In the app version you can click on commit summary and initial commit and publish repo to deploy.
+8. For the browser version you should click on Settings and scroll down to "Github Pages" and change source to main and click save. This should deploy your webpage to Github Pages!
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+Using flex instead of standard Position: ;
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Navbar customisation for toggler
+
+https://docs.themeisle.com/article/442-how-to-change-hamburger-menu-color-dropdown-color-on-mobile-in-zerif
+
+Parllax effect:
+
+https://www.w3schools.com/howto/howto_css_parallax.asp
+
+Navigation bootstrap elements taken from:
+
+https://getbootstrap.com/docs/4.4/components/navs/#horizontal-alignment
+
+Ripple animation:
+
+https://ianlunn.github.io/Hover/
+
+Remove padding:
+
+https://www.webdesignvista.com/how-to-decrease-the-height-of-navbar-on-bootstrap-4/#:~:text=To%20reduce%20height%20you%20need%20to%20remove%20padding%20on%20both.&text=This%20class%20sets%20padding%2Dtop,of%20navbar%20class%20to%200.&text=Thats%20it!
+
+Carousel Bootstrap:
+
+https://getbootstrap.com/docs/4.0/components/carousel/
+
+
+
 
 ### Media
-- The photos used in this site were obtained from ...
+- 
+https://www.pexels.com/
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for the layout of my website from Traversy Media (https://www.youtube.com/watch?v=JttTcnidSdQ&ab_channel=TraversyMedia)
