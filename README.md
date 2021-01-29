@@ -20,7 +20,16 @@ The ways I approached this:
 
 4. Images used in the background are relevant to the titles of each section which ties the whole website into a promotional statement.  My intention is to generate appeal so it was important to make sure there is a synergy between the content and my choice of structured stylingl.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Wireframe:
+
+
+![My-Portfolio Wireframe](https://user-images.githubusercontent.com/41737293/106295077-e63eaf80-6247-11eb-90ac-93dd1e333c4a.png)
+
+Mockup:
+
+![My-Portfolio mockup](https://user-images.githubusercontent.com/41737293/106295530-7977e500-6248-11eb-8464-bcdbf2adbe84.PNG)
+
+Lighthouse Report:
 
 ## Features
 
@@ -95,6 +104,14 @@ Fix: Used display: flex instead of Position element to have more room for stylin
 
 Fix: used py-0 to reduce padding.
 
+5. Carousel slides changing size based on content.
+
+Fix: Set an inline fixed height and width to keep the block the same size.
+
+6. Previous/Next button are not aligned in the center:
+
+Fix: Added a negative top number to push buttons to a new position.
+
 ## Deployment
 
 1. Create a GitHub account on github.com.
@@ -142,9 +159,10 @@ https://getbootstrap.com/docs/4.0/components/carousel/
 
 
 ### Media
-- 
+Image source:
+
 https://www.pexels.com/
 
 ### Acknowledgements
 
-- I received inspiration for the layout of my website from Traversy Media (https://www.youtube.com/watch?v=JttTcnidSdQ&ab_channel=TraversyMedia)
+I received inspiration for the layout of my website from Traversy Media (https://www.youtube.com/watch?v=JttTcnidSdQ&ab_channel=TraversyMedia)
