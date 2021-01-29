@@ -31,6 +31,8 @@ Mockup:
 
 Lighthouse Report:
 
+![Lighthouse](https://user-images.githubusercontent.com/41737293/106296454-995bd880-6249-11eb-80fe-52225549163c.PNG)
+
 ## Features
 
 What methods I used to create a responsive and appealing website.
@@ -86,31 +88,31 @@ My-Portfolio is a single scrolling page which works well on both Desktop screens
 
 There was some issues for phones with a pixel count smaller then 350 pixels but I was unable enforce a media query as the content would be undermined.
 
-### Bugs
+## Bugs
 
 1. White space underneath each section. 
 
-Fix: Set margin and padding to 0, used internal CSS to set max-width and margin size for Paragraphs.
+    Fix: Set margin and padding to 0, used internal CSS to set max-width and margin size for Paragraphs.
 
 2. Section heading borders overlapping when reducing screen size.
 
-Fix: Changed sections into fluid containders and utilised m-auto and reduces sizes of borders and text. Changed Section 2 into a span fit larger content.
+    Fix: Changed sections into fluid containders and utilised m-auto and reduces sizes of borders and text. Changed Section 2 into a span fit larger content.
 
 3. Unable to change padding and margin for background images.
 
-Fix: Used display: flex instead of Position element to have more room for styling.
+    Fix: Used display: flex instead of Position element to have more room for styling.
 
 4. Excess padding on Navigation bar.
 
-Fix: used py-0 to reduce padding.
+    Fix: used py-0 to reduce padding.
 
 5. Carousel slides changing size based on content.
 
-Fix: Set an inline fixed height and width to keep the block the same size.
+    Fix: Set an inline fixed height and width to keep the block the same size.
 
-6. Previous/Next button are not aligned in the center:
+6. Previous/Next button are not aligned in the center of the Carousel:
 
-Fix: Added a negative top number to push buttons to a new position.
+    Fix: Added a negative top number to push buttons to a new position.
 
 ## Deployment
 
@@ -127,7 +129,7 @@ Fix: Added a negative top number to push buttons to a new position.
 
 ## Credits
 
-Using flex instead of standard Position: ;
+Using flex instead of standard Position style
 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
@@ -135,11 +137,11 @@ Navbar customisation for toggler
 
 https://docs.themeisle.com/article/442-how-to-change-hamburger-menu-color-dropdown-color-on-mobile-in-zerif
 
-Parllax effect:
+Parallax effect:
 
 https://www.w3schools.com/howto/howto_css_parallax.asp
 
-Navigation bootstrap elements taken from:
+Navigation Bootstrap elements taken from:
 
 https://getbootstrap.com/docs/4.4/components/navs/#horizontal-alignment
 
