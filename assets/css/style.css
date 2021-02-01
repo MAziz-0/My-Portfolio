@@ -18,7 +18,9 @@ body, html{
 
 .navbar {
 	    padding: .2rem;
-        margin-top: -200px;
+        margin-top: 0px;
+		height: fit-content;
+ 
  }
 
 .navbar-dark .navbar-toggler {
