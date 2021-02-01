@@ -1,226 +1,199 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 /* ________________________________________________ Body */
 
-body, html{
-	font-family: Lato;
-	font-size: 15px;
-	color: #5e5e5e;
-	margin: 0;
-	height: 100%;
-	line-height: 30px;
-}
-
-@media (max-width: 300px){
-	body, html{
-	padding: 10% 3rem !important;
-	}
+body,
+html {
+    font-family: Lato;
+    font-size: 15px;
+    color: #5e5e5e;
+    margin: 0;
+    height: 100%;
+    line-height: 30px;
 }
 
 .navbar {
-	    padding: .2rem;
-        margin-top: 0px;
-		height: fit-content;
- 
- }
+    padding: 0.2rem;
+    margin: 0;
+    height: fit-content;
+    font-size: 20px;
+}
 
 .navbar-dark .navbar-toggler {
-	margin-top: 4rem;
+    margin-top: 4rem;
+    background-color: #023040;
+    opacity: 90%;
 }
 
 p {
-	font-family: Titillium Web;
+    font-family: Titillium Web;
 }
 
-.intro{
-	background-color: #111;
-	padding: 20px;
-	margin-top: 200px;
-	opacity: 95%;
-	letter-spacing: 10px;
+.intro {
+    background-color: #111;
+    padding: 20px;
+    margin-top: 200px;
+    opacity: 95%;
+    letter-spacing: 10px;
+    font-size: 3rem;
 }
 .paratext {
-	
-	width: 100%;
-	text-align: center;
-	font-size: 20px; 
-	text-transform: uppercase;
-	letter-spacing: 7px;
-	color: whitesmoke;
-	opacity: 80%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: whitesmoke;
+    opacity: 80%;
 }
 
-
-.paratext  .border{
-	color: #f4f4f4;
-	background-color: #111;
-	padding: 20px;
-
+.paratext .border {
+    color: #f4f4f4;
+    background-color: #111;
+    padding: 20px;
 }
 
 /* ________________________________________________ Section*/
 
-
-.section-dark{
-	text-align: center;
-	font-size: 18px;
-	background-color: #141414;
-	color: #f5f5f5;
-	padding: 10%;
-	
-
+.section-dark {
+    text-align: center;
+    font-size: 18px;
+    background-color: #141414;
+    color: #f5f5f5;
+    padding: 10%;
 }
 /* ________________________________________________ Footer*/
 
-footer{
-    
-	background-color: #141414;
+footer {
+    background-color: #141414;
     color: #f5f5f5;
     padding: 0%;
-	text-decoration: none;
-	text-align: -webkit-center;
-	margin: 0 auto;
-	
-
-
+    text-decoration: none;
+    text-align: -webkit-center;
+    margin: 27px auto;
 }
-#navlist li{
-	display: -webkit-inline-box;
-	padding-right: 20px;
-	
+#navlist li {
+    display: -webkit-inline-box;
+    padding-right: 20px;
+    color: whitesmoke;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: whitesmoke;
 }
 
 footer ul {
-	margin-top: -58px;
+    margin-top: -58px;
     margin-bottom: 0rem;
     margin-right: 46px;
 }
 .socials li a i {
-	
-	text-align: center;
-	font-size: 18px;
-	background-color: #141414;
+    text-align: center;
+    font-size: 18px;
+    background-color: #141414;
     color: #f5f5f5;
-	border-color: #023040;
-	border-radius: 50%;
-	display: inline;
-	line-height: 7px;
-	
-	
+    border-color: #023040;
+    border-radius: 50%;
+    display: inline;
+    line-height: 7px;
 }
 
-.socials li a:hover{
-	text-decoration: none;
-}
-
-@media (max-width: 350px){
-    .socials{
-    padding: 10px 3rem !important;
-    }
+.socials li a:hover {
+    text-decoration: none;
 }
 
 /* ________________________________________________ Background images*/
 
-.city-image{
-	background-image: url("../img/city.jpg");
-	min-height: 80%;
-	position: relative;
-	opacity: 0.90;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	
+.city-image {
+    background-image: url("../images/city.jpg");
+    min-height: 80%;
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.skills-image{
-	background-image: url("../img/skills.jpg");
-	min-height: 40%;
-	opacity: 0.80;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	
+.skills-image {
+    background-image: url("../images/skills.jpg");
+    min-height: 40%;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.meeting-image{
-	background-image: url("../img/meeting.jpg");
-	min-height: 40%;
-	opacity: 0.80;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+.meeting-image {
+    background-image: url("../images/meeting.jpg");
+    min-height: 40%;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Parallax scroll effect */
 
-.city-image, .skills-image, .meeting-image{
-	background-attachment: fixed;
-   
+.city-image,
+.skills-image,
+.meeting-image {
+    background-attachment: fixed;
 }
 
 /* ________________________________________________ Carousel*/
 
 div .front {
-	font-family: Titillium Web;
-	font-size: 18px;
-	text-align: center;
-	background-color: #141414;
-	color: #f5f5f5;
-	padding: 10% 8rem;
-	min-height: 300px;
-
+    font-family: Titillium Web;
+    font-size: 18px;
+    text-align: center;
+    background-color: #141414;
+    color: #f5f5f5;
+    padding: 10% 8rem;
+    min-height: 300px;
 }
 
 div .back {
-	font-family: Titillium Web;
-	font-size: 18px;
-	text-align: center;
-	background-color: #141414;
-	color: #f5f5f5;
-	padding: 10% 8rem;
-	min-height: 300px;
-
+    font-family: Titillium Web;
+    font-size: 18px;
+    text-align: center;
+    background-color: #141414;
+    color: #f5f5f5;
+    padding: 10% 8rem;
+    min-height: 300px;
 }
 
 div .frame {
-	font-family: Titillium Web;
-	font-size: 18px;
-	text-align: center;
-	background-color: #141414;
-	color: #f5f5f5;
-	padding: 10% 8rem;
-	min-height: 300px;
-
+    font-family: Titillium Web;
+    font-size: 18px;
+    text-align: center;
+    background-color: #141414;
+    color: #f5f5f5;
+    padding: 10% 8rem;
+    min-height: 300px;
 }
 
-.techstack{
-	letter-spacing: 5px;
-	font-size: 20px;
+.techstack {
+    letter-spacing: 5px;
+    font-size: 20px;
 }
-
-@media (max-width: 480px) {
-	.front, .back, .frame {
-		padding: 10% 3rem !important;
-	}
-}
-
-@media (min-width: 800px) {
-	.front, .back, .frame {
-		padding: 4rem 20% !important;
-	}
-}
-
 
 /* ________________________________________________ Form*/
 
 form {
-	margin: 0 auto;
-	padding: 20px;
-	width: 100%;
-	max-width: 800px;
-	
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
 }
-.form-check{
-	margin-top: 1rem;
+
+.contact-head {
+    font-family: Titillium Web;
+    font-size: 35x;
+    text-align: center;
+    color: #f5f5f5;
+    margin-bottom: 35px;
+}
+
+.form-check {
+    margin-top: 1rem;
 }
 
 button[type="submit"] {
@@ -228,9 +201,67 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #023040;
-	border-color: #fafafa;
+    border-color: #fafafa;
 }
 
-input[type=checkbox], input[type=radio] {
-	margin-top: 7px;
+input[type="checkbox"],
+input[type="radio"] {
+    margin-top: 7px;
+}
+
+/* ________________________________________________ Media Queries*/
+
+@media only screen and (max-width: 480px) {
+    .front,
+    .back,
+    .frame {
+        padding: 10% 3rem !important;
+    }
+
+    .intro {
+        font-size: 2rem;
+    }
+
+    .city-image,
+    .skills-image,
+    .meeting-image {
+        background-attachment: initial !important;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .front,
+    .back,
+    .frame {
+        padding: 4rem 20% !important;
+    }
+
+    .section-dark, .back, .front, .frame {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    body,
+    html {
+        padding: 10% 3rem !important;
+    }
+    .socials {
+        padding: 10px 3rem !important;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .navbar {
+        background-color: #023040;
+        opacity: 90%;
+    }
+}
+
+* {
+    max-width: 100%;
+}
+
+p {
+    margin: 0;
 }

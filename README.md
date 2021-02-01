@@ -12,13 +12,13 @@ This website is functional on all modern browsers and smartphones above a 350 pi
 
 The ways I approached this:
 
-1. Making sure that the main features used are clear to the eye. Using Parallax scrolling on images and a automatic Carousel left no room for excessive feature and creates a responsive and more dynamic website.
+1. Making sure that the main features used are clear to the eye. Using Parallax scrolling on images and an automatic Carousel left no room for excessive features and creates a responsive and more dynamic website.
 
 2. Sections and Paragraphs are clearly delineated to show the seperate information using images to seperate sections and the use of dark color palletes which guide the user through the site.
 
 3. Using a single scroll page to navigate three seperate pages has allowed maximum efficiency and less room for disruption as users can quickly view all the pages in a single scroll.
 
-4. Images used in the background are relevant to the titles of each section which ties the whole website into a promotional statement.  My intention is to generate appeal so it was important to make sure there is a synergy between the content and my choice of structured stylingl.
+4. Images used in the background are relevant to the titles of each section which ties the whole website into a promotional statement.  My intention is to generate appeal so it was important to make sure there is a synergy between the content and my choice of structured styling.
 
 Wireframe:
 
@@ -39,13 +39,11 @@ What methods I used to create a responsive and appealing website.
  
 ### Existing Features
 - Feature 1 - The Bootstrap based Navigation toggler was used to ensure a navigation bar that is both stylish and responsive to modern websites and smartphones. When using the website on a low pixel count the toggler uses the three line toggler (also known as the hamburger toggler) to minimise and maximise the menu.
-- Feature 2 - Using Parallax scrolling is a feature intended as a design choice to make the website appealing and easy on the eyes. Potential employers or fellow developers are the target audience so I deemed it necessary to create a website that had high performance and an aesthetic value.
+- Feature 2 - Using Parallax scrolling is a feature intended as a design choice to make the website appealing and easy on the eyes. Potential employers or fellow developers are the target audience so I deemed it necessary to create a website that performs well and has aesthetic value.
 - Feature 3 - Bootstrap Carousel was used to create a modern and automated approach to displaying information, having a moving slide alongside a parallax scroll feature was used to make the website look more dynamic and animated. This is also necessary to fit more information in a single scrolling page without having to link new pages to target.
 
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [HTML]
     - The project uses **HTML** to create the basic content
@@ -57,11 +55,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - The project uses **Bootstrap Framework** to utilise its highly optimised feature set.
 
 
-
 ## Testing
 
 1. Navigation Bar:
-    1. Hover on navigation bar was tested and worked.
+    1. Hover on navigation bar was tested and is responsive.
     2. Checked each navigation option is connected and linked to relevant sections.
     3. Used appropriate styling such as padding and margin to center align the menu as intended, tested in responsive mode.
     4. Tested at lowest pixel count to check if the Bootstrap hamburger toggler is functional as intended.
@@ -69,7 +66,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 2. Background Images / Section Styling:
     1. Tested the website on a lower brightness and found opacity to be too high - lowered opacity to retain image quality.
     2. Originally used a pastelle blue and mint font color for sections but this did not work well with images. Tested darker colors and changed font.
-    3. Checked responsiveness and noticed bottom padding would change as text would push sections into other sections. Used media queries to set the text formatting.
+    3. Checked responsiveness and noticed bottom padding would change as text would push sections into other sections. Used media queries to set the text format.
     4. Lowered opactiy on headings and on Title background image for a better user experience, made sure all images are also related to section headings.
 
 3. Bootstrap Carousel Slides with Prev/Next buttons:
@@ -114,6 +111,10 @@ There was some issues for phones with a pixel count smaller then 350 pixels but 
 
     Fix: Added a negative top number to push buttons to a new position.
 
+7. Navigation toggler is not collapsing properly.
+
+    Fix: Reduced margin to 0 and changed height of navigation bar toggler to fit content.
+
 ## Deployment
 
 1. Create a GitHub account on github.com.
@@ -124,7 +125,6 @@ There was some issues for phones with a pixel count smaller then 350 pixels but 
 6. Move your website's files into the folder that GitHub just created when you made the repository. You can add this manually or commit through a terminal push. IMPORTANT: Your homepage HTML file must be called "index.html", and it must exist in the top-level directory.
 7. You should now see your files in the app or browser. In the app version you can click on commit summary and initial commit and publish repo to deploy.
 8. For the browser version you should click on Settings and scroll down to "Github Pages" and change source to main and click save. This should deploy your webpage to Github Pages!
-
 
 
 ## Credits
