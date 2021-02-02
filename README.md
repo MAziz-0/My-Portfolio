@@ -5,8 +5,8 @@ A minimalistic approach to introducing myself to a web user and displaying what 
 ## Getting Started
 
 My Portfolio is a website that has been created to showcase my experience in Frontend development. Using the Bootstrap framework alongside HTML and CSS I was able to create a minimalist and clean  single scrolling web page that uses a dark theme. 
-This is a representation of my new skill set and aesthetic choices. I am a fool for the dark theme in all applications if the option exists. I have created a simple summary and some Carousel slides into what I have learnt. Some of the languages listed are what I intent to learn in due time.
-Hope this is one of the many projects I will undertake to create and add to the developer space.
+This is a representation of my new skill set and aesthetic choices as I am a fool for the dark theme in all applications if the option exists. I have created a simple summary and some Carousel slides to display what I have learnt. Some of the languages listed are what I intend to learn in due time.
+Hopefully this is one of the many projects I will undertake to create and add to the developer space.
 
 
 ## UX
@@ -29,29 +29,29 @@ The ways I approached this:
 
 Target audience: Potential employers
 
-User: I would like to get more information on who this person is.
+#### User: I would like to get more information on who this person is.
 
 Provision: Information on myself has been provided using the Carousel and Sections to display a short introduction on what type of employee they can expect and what skills I have.
 
-User: I would like to see there work history.
+#### User: I would like to see there work history.
 
 Provision: A main link has been added to the Navigation bar which allows the user to directly download a CV in relation to full work history.
 
-User: Where can I find this person on other platforms to see what type of person they are.
+#### User: Where can I find this person on other platforms to see what type of person they are.
 
 Provison: Provided multiple social links in footer which allow the user to view my personal profile on other platforms and most importantly my Github which would display projects.
 
-User: I want to work with this person, what is the best way to start working with them.
+#### User: I want to work with this person, what is the best way to start working with them.
 
 Provision: A contact form has been provided so the user can send in a project request, alternatively they can find me on other platforms via the social links provided.
 
 
-Wireframe:
+### Wireframe:
 
 
 ![My-Portfolio Wireframe](https://user-images.githubusercontent.com/41737293/106295077-e63eaf80-6247-11eb-90ac-93dd1e333c4a.png)
 
-Lighthouse Report:
+### Lighthouse Report:
 
 ![Lighthouse](https://user-images.githubusercontent.com/41737293/106616454-7d1bac80-6565-11eb-88d9-ab1cf62bb9c1.PNG)
 
@@ -60,10 +60,10 @@ Lighthouse Report:
 What methods I used to create a responsive and appealing website.
  
 ### Existing Features
+
 - Feature 1 - The Bootstrap based Navigation toggler was used to ensure a navigation bar that is both stylish and responsive to modern websites and smartphones. When using the website on a low pixel count the toggler uses the three line toggler (also known as the hamburger toggler) to minimise and maximise the menu.
 - Feature 2 - Using Parallax scrolling is a feature intended as a design choice to make the website appealing and easy on the eyes. Potential employers or fellow developers are the target audience so I deemed it necessary to create a website that performs well and has aesthetic value.
 - Feature 3 - Bootstrap Carousel was used to create a modern and automated approach to displaying information, having a moving slide alongside a parallax scroll feature was used to make the website look more dynamic and animated. This is also necessary to fit more information in a single scrolling page without having to link new pages to target.
-
 
 ## Technologies Used
 
@@ -74,7 +74,7 @@ What methods I used to create a responsive and appealing website.
     - The project uses **CSS** to style the HTML
 
 - [Bootstrap]
-    - The project uses **Bootstrap Framework** to utilise its highly optimised feature set.
+    - The project uses **Bootstrap Framework** to utilise its highly optimised and customisable feature sets.
 
 
 ## Testing
@@ -90,11 +90,12 @@ What methods I used to create a responsive and appealing website.
     2. Originally used a pastelle blue and mint font color for sections but this did not work well with images. Tested darker colors and changed font.
     3. Checked responsiveness and noticed bottom padding would change as text would push sections into other sections. Used media queries to set the text format.
     4. Lowered opactiy on headings and on Title background image for a better user experience, made sure all images are also related to section headings.
+    5. Added media query to disable parallax on mobile screen sizes as they do not work properly.
 
 3. Bootstrap Carousel Slides with Prev/Next buttons:
     1. Tested the interval speed which was inconsistent, changed each slide transition to 7000ms.
     2. Buttons are working without any issues when tested. Increased size and made responsive to use on smaller screens.
-    3. Icon seemed to small, so changed to a larger Bootstrap size.
+    3. Icon seemed too small, so changed to a larger Bootstrap size.
 
 4. Contact form:
     
@@ -142,6 +143,9 @@ HTML/CSS formatted using https://webformatter.com/
 
     Fix: Reduced margin to 0 and changed height of navigation bar toggler to fit content.
 
+8. Parallax feature does not work well on mobile devices.
+
+    Fix: Added a media query to disable on mobile screen sizes
 
 
 ## Deployment
@@ -185,8 +189,6 @@ https://www.webdesignvista.com/how-to-decrease-the-height-of-navbar-on-bootstrap
 Carousel Bootstrap:
 
 https://getbootstrap.com/docs/4.0/components/carousel/
-
-
 
 
 ### Media
