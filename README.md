@@ -108,9 +108,12 @@ My-Portfolio is a single scrolling page which works well on both Desktop screens
 This website was tested using HTML/CSS validator tools:
 
 https://validator.w3.org/
+
 https://jigsaw.w3.org/css-validator/
 
-HTML/CSS formatted using https://webformatter.com/
+HTML/CSS formatted: 
+
+https://webformatter.com/
 
 
 ## Bugs
