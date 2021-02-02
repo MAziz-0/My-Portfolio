@@ -4,9 +4,14 @@ A minimalistic approach to introducing myself to a web user and displaying what 
 
 ## Getting Started
 
-This website is functional on all modern browsers and smartphones above a 350 pixel screen size.
+My Portfolio is a website that has been created to showcase my experience in Frontend development. Using the Bootstrap framework alongside HTML and CSS I was able to create a minimalist and clean  single scrolling web page that uses a dark theme. 
+This is a representation of my new skill set and aesthetic choices. I am a fool for the dark theme in all applications if the option exists. I have created a simple summary and some Carousel slides into what I have learnt. Some of the languages listed are what I intent to learn in due time.
+Hope this is one of the many projects I will undertake to create and add to the developer space.
+
 
 ## UX
+
+![My-Portfolio mockup](https://user-images.githubusercontent.com/41737293/106295530-7977e500-6248-11eb-8464-bcdbf2adbe84.PNG)
  
 ### Main intention behind the UX on this website has been the dark theme with a minamalist approach to displaying information.
 
@@ -16,22 +21,39 @@ The ways I approached this:
 
 2. Sections and Paragraphs are clearly delineated to show the seperate information using images to seperate sections and the use of dark color palletes which guide the user through the site.
 
-3. Using a single scroll page to navigate three seperate pages has allowed maximum efficiency and less room for disruption as users can quickly view all the pages in a single scroll.
+3. Using a single scroll page to navigate three seperate pages has allowed maximum efficiency and less room for disruption as users can quickly view all the pages in a single scroll. As modern resumes are conventionally meant to be short and concise, this inspired the design of the website as this may be a potential selling point for an employer.
 
 4. Images used in the background are relevant to the titles of each section which ties the whole website into a promotional statement.  My intention is to generate appeal so it was important to make sure there is a synergy between the content and my choice of structured styling.
+
+### User Stories
+
+Target audience: Potential employers
+
+User: I would like to get more information on who this person is.
+
+Provision: Information on myself has been provided using the Carousel and Sections to display a short introduction on what type of employee they can expect and what skills I have.
+
+User: I would like to see there work history.
+
+Provision: A main link has been added to the Navigation bar which allows the user to directly download a CV in relation to full work history.
+
+User: Where can I find this person on other platforms to see what type of person they are.
+
+Provison: Provided multiple social links in footer which allow the user to view my personal profile on other platforms and most importantly my Github which would display projects.
+
+User: I want to work with this person, what is the best way to start working with them.
+
+Provision: A contact form has been provided so the user can send in a project request, alternatively they can find me on other platforms via the social links provided.
+
 
 Wireframe:
 
 
 ![My-Portfolio Wireframe](https://user-images.githubusercontent.com/41737293/106295077-e63eaf80-6247-11eb-90ac-93dd1e333c4a.png)
 
-Mockup:
-
-![My-Portfolio mockup](https://user-images.githubusercontent.com/41737293/106295530-7977e500-6248-11eb-8464-bcdbf2adbe84.PNG)
-
 Lighthouse Report:
 
-![Lighthouse](https://user-images.githubusercontent.com/41737293/106296454-995bd880-6249-11eb-80fe-52225549163c.PNG)
+![Lighthouse](https://user-images.githubusercontent.com/41737293/106616454-7d1bac80-6565-11eb-88d9-ab1cf62bb9c1.PNG)
 
 ## Features
 
@@ -78,12 +100,17 @@ What methods I used to create a responsive and appealing website.
     
     1. Tried and tested all fields to maintain a error message if the form is incorrectly filled in.
     2. Tried to submit without a real email address and received correct error.
-    3. Created a confirmation button and tested if error appears if all data is filled in but checkbox is left out.
     4. Tested all form fields with correct information and submitted successfully.
 
 My-Portfolio is a single scrolling page which works well on both Desktop screens, Ipad screens and most smartphones.
 
-There was some issues for phones with a pixel count smaller then 350 pixels but I was unable enforce a media query as the content would be undermined.
+This website was tested using HTML/CSS validator tools:
+
+https://validator.w3.org/
+https://jigsaw.w3.org/css-validator/
+
+HTML/CSS formatted using https://webformatter.com/
+
 
 ## Bugs
 
@@ -114,6 +141,8 @@ There was some issues for phones with a pixel count smaller then 350 pixels but 
 7. Navigation toggler is not collapsing properly.
 
     Fix: Reduced margin to 0 and changed height of navigation bar toggler to fit content.
+
+
 
 ## Deployment
 
