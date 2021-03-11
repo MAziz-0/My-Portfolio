@@ -31,19 +31,19 @@ The ways I approached this:
 
 Target audience: Potential employers
 
-####I would like to get more information on who this person is.
+#### I would like to get more information on who this person is.
 
 - Information has been provided using the Carousel and Sections to display a short introduction on what type of employee they can expect and what skills I have.
 
-####I would like to see there work history.
+#### I would like to see there work history.
 
 - A main link has been added to the Navigation bar which allows the user to directly download a CV in relation to full work history.
 
-####Where can I find this person on other platforms to see what type of person they are.
+#### Where can I find this person on other platforms to see what type of person they are.
 
 - Provided multiple social links in footer which allow the user to view my personal profile on other platforms and most importantly my Github which would display projects.
 
-####I want to work with this person, what is the best way to start working with them.
+#### I want to work with this person, what is the best way to start working with them.
 
 - A contact form has been provided so the user can send in a project request, alternatively they can find me on other platforms via the social links provided.
 
