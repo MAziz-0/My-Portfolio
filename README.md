@@ -31,21 +31,21 @@ The ways I approached this:
 
 Target audience: Potential employers
 
-#### User: I would like to get more information on who this person is.
+####I would like to get more information on who this person is.
 
-Provision: Information on myself has been provided using the Carousel and Sections to display a short introduction on what type of employee they can expect and what skills I have.
+- Information has been provided using the Carousel and Sections to display a short introduction on what type of employee they can expect and what skills I have.
 
-#### User: I would like to see there work history.
+####I would like to see there work history.
 
-Provision: A main link has been added to the Navigation bar which allows the user to directly download a CV in relation to full work history.
+- A main link has been added to the Navigation bar which allows the user to directly download a CV in relation to full work history.
 
-#### User: Where can I find this person on other platforms to see what type of person they are.
+####Where can I find this person on other platforms to see what type of person they are.
 
-Provison: Provided multiple social links in footer which allow the user to view my personal profile on other platforms and most importantly my Github which would display projects.
+- Provided multiple social links in footer which allow the user to view my personal profile on other platforms and most importantly my Github which would display projects.
 
-#### User: I want to work with this person, what is the best way to start working with them.
+####I want to work with this person, what is the best way to start working with them.
 
-Provision: A contact form has been provided so the user can send in a project request, alternatively they can find me on other platforms via the social links provided.
+- A contact form has been provided so the user can send in a project request, alternatively they can find me on other platforms via the social links provided.
 
 
 ### Wireframe:
@@ -105,20 +105,7 @@ What methods I used to create a responsive and appealing website.
     2. Tried to submit without a real email address and received correct error.
     4. Tested all form fields with correct information and submitted successfully.
 
-My-Portfolio is a single scrolling page which works well on both Desktop screens, Ipad screens and most smartphones.
-
-This website was tested using HTML/CSS validator tools:
-
-https://validator.w3.org/
-
-https://jigsaw.w3.org/css-validator/
-
-HTML/CSS formatted: 
-
-https://webformatter.com/
-
-
-## Bugs
+    ## Bugs
 
 1. White space underneath each section. 
 
@@ -151,6 +138,21 @@ https://webformatter.com/
 8. Parallax feature does not work well on mobile devices.
 
     Fix: Added a media query to disable on mobile screen sizes
+
+
+My-Portfolio is a single scrolling page which works well on both Desktop screens, Ipad screens and most smartphones.
+
+This website was tested using HTML/CSS validator tools:
+
+https://validator.w3.org/
+
+https://jigsaw.w3.org/css-validator/
+
+HTML/CSS formatted: 
+
+https://webformatter.com/
+
+
 
 
 ## Deployment
