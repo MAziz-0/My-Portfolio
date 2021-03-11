@@ -16,7 +16,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
     </head>
     <body>
-        <div class="city-image row m-0" id="home">
+    <!--Main image for home screen, parallax used to fix image to main page.--> 
+        <div class="city-image row m-0" id="home"> 
+        <!--Bootstrap Navbar which collapses when into a hamburger icon when screen size is reduced--> 
             <nav class="navbar navbar-dark navbar-expand-sm w-100 pb-0 pt-0">
                 <button class="navbar-toggler ml-auto mr-4 px-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,11 +33,12 @@
                     </ul>
                 </div>
             </nav>
+        <!-- Greeting Heading --> 
             <div class="paratext col-12 mx-auto">
                 <div class="h1 m-0 intro">Hi, I'm Mohammad</div>
             </div>
         </div>
-
+<!-- Introduction --> 
         <section class="section1 section-dark container-fluid">
             <p class="d-sm-inline-flex">
                 A highly motivated problem solver with a broad background in IT who is reliable and committed to benefiting a businesses core functions and ensuring work is performed with quality and efficiency. I thrive in teamwork
@@ -47,11 +50,12 @@
         <div id="skills" class="skills-image row m-0">
             <div class="paratext col-12 m-auto">
                 <div class="border">
-                    <span>What I bring to</span>
+                    <span>What I bring to</span> 
                     <span>the table</span>
                 </div>
             </div>
         </div>
+        <!-- Bootstrap Carousel feature --> 
         <section class="section2 section-dark container-fluid px-2 pb-0">
             <div class="row mx-auto col-12 carousel slide" id="carouselExampleControls" data-ride="carousel" data-interval="7000">
                 <div class="carousel-inner" style="width: 100%; height: 550px !important;">
@@ -64,7 +68,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" data-interval="7000">
+                    <div class="carousel-item" data-interval="7000"> 
                         <i class="fas fa-tools fa-3x"></i>
                         <div class="techstack mt-3">BACKEND</div>
                         <div class="back">
@@ -81,6 +85,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Bootstrap Carousel buttons --> 
                 <div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" style="top: -140px;">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -104,7 +109,7 @@
                 </div>
             </div>
         </div>
-
+<!-- Responsive form with error feedback --> 
         <section class="section3 section-dark container-fluid">
             <form>
                 <h2 class="contact-head">Contact</h2>
@@ -119,7 +124,7 @@
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </section>
-
+<!-- Social links--> 
         <footer class="navcontainer mx-auto container-fluid mt-0 py-4">
             <ul class="socials m-0 p-0" id="navlist">
                 <li id="active"><a href="#" id="current"></a></li>
