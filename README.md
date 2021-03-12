@@ -27,29 +27,7 @@ The ways I approached this:
 
 4. Images used in the background are relevant to the titles of each section which ties the whole website into a promotional statement.  My intention is to generate appeal so it was important to make sure there is a synergy between the content and my choice of structured styling.
 
-### User Stories
-
-Target audience: Potential employers
-
-#### I would like to get more information on who this person is.
-
-- Information has been provided using the Carousel and Sections to display a short introduction on what type of employee they can expect and what skills I have.
-
-#### I would like to see there work history.
-
-- A main link has been added to the Navigation bar which allows the user to directly download a CV in relation to full work history.
-
-#### Where can I find this person on other platforms to see what type of person they are.
-
-- Provided multiple social links in footer which allow the user to view my personal profile on other platforms and most importantly my Github which would display projects.
-
-#### I want to work with this person, what is the best way to start working with them.
-
-- A contact form has been provided so the user can send in a project request, alternatively they can find me on other platforms via the social links provided.
-
-
 ### Wireframe:
-
 
 ![My-Portfolio Wireframe](https://user-images.githubusercontent.com/41737293/106295077-e63eaf80-6247-11eb-90ac-93dd1e333c4a.png)
 
@@ -81,6 +59,28 @@ What methods I used to create a responsive and appealing website.
 
 ## Testing
 
+### User Stories
+
+Target audience: Potential employers
+
+#### I would like to get more information on who this person is.
+
+- Information has been provided using the Carousel and Sections to display a short introduction on what type of employee they can expect and what skills I have.
+
+#### I would like to see there work history.
+
+- A main link has been added to the Navigation bar which allows the user to directly download a CV in relation to full work history.
+
+#### Where can I find this person on other platforms to see what type of person they are.
+
+- Provided multiple social links in footer which allow the user to view my personal profile on other platforms and most importantly my Github which would display projects.
+
+#### I want to work with this person, what is the best way to start working with them.
+
+- A contact form has been provided so the user can send in a project request, alternatively they can find me on other platforms via the social links provided.
+
+### Testing main features
+
 1. Navigation Bar:
     1. Hover on navigation bar was tested and is responsive.
     2. Checked each navigation option is connected and linked to relevant sections.
@@ -107,37 +107,37 @@ What methods I used to create a responsive and appealing website.
 
     ## Bugs
 
-1. White space underneath each section. 
+ 1. White space underneath each section. 
 
-    Fix: Set margin and padding to 0, used internal CSS to set max-width and margin size for Paragraphs.
+    -Fix: Set margin and padding to 0, used internal CSS to set max-width and margin size for Paragraphs.
 
-2. Section heading borders overlapping when reducing screen size.
+ 2. Section heading borders overlapping when reducing screen size.
 
-    Fix: Changed sections into fluid containders and utilised m-auto and reduces sizes of borders and text. Changed Section 2 into a span fit larger content.
+    -Fix: Changed sections into fluid containders and utilised m-auto and reduces sizes of borders and text. Changed Section 2 into a span fit larger content.
 
-3. Unable to change padding and margin for background images.
+ 3. Unable to change padding and margin for background images.
 
-    Fix: Used display: flex instead of Position element to have more room for styling.
+    -Fix: Used display: flex instead of Position element to have more room for styling.
 
-4. Excess padding on Navigation bar.
+ 4. Excess padding on Navigation bar.
 
-    Fix: used py-0 to reduce padding.
+    -Fix: used py-0 to reduce padding.
 
-5. Carousel slides changing size based on content.
+ 5. Carousel slides changing size based on content.
 
-    Fix: Set an inline fixed height and width to keep the block the same size.
+    -Fix: Set an inline fixed height and width to keep the block the same size.
 
-6. Previous/Next button are not aligned in the center of the Carousel:
+ 6. Previous/Next button are not aligned in the center of the Carousel:
 
-    Fix: Added a negative top number to push buttons to a new position.
+    -Fix: Added a negative top number to push buttons to a new position.
 
 7. Navigation toggler is not collapsing properly.
 
-    Fix: Reduced margin to 0 and changed height of navigation bar toggler to fit content.
+    -Fix: Reduced margin to 0 and changed height of navigation bar toggler to fit content.
 
 8. Parallax feature does not work well on mobile devices.
 
-    Fix: Added a media query to disable on mobile screen sizes
+    -Fix: Added a media query to disable on mobile screen sizes
 
 
 My-Portfolio is a single scrolling page which works well on both Desktop screens, Ipad screens and most smartphones.
@@ -171,37 +171,37 @@ https://webformatter.com/
 
 Using flex instead of standard Position style
 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 Navbar customisation for toggler
 
-https://docs.themeisle.com/article/442-how-to-change-hamburger-menu-color-dropdown-color-on-mobile-in-zerif
+-https://docs.themeisle.com/article/442-how-to-change-hamburger-menu-color-dropdown-color-on-mobile-in-zerif
 
 Parallax effect:
 
-https://www.w3schools.com/howto/howto_css_parallax.asp
+-https://www.w3schools.com/howto/howto_css_parallax.asp
 
 Navigation Bootstrap elements taken from:
 
-https://getbootstrap.com/docs/4.4/components/navs/#horizontal-alignment
+-https://getbootstrap.com/docs/4.4/components/navs/#horizontal-alignment
 
 Ripple animation:
 
-https://ianlunn.github.io/Hover/
+-https://ianlunn.github.io/Hover/
 
 Remove padding:
 
-https://www.webdesignvista.com/how-to-decrease-the-height-of-navbar-on-bootstrap-4/#:~:text=To%20reduce%20height%20you%20need%20to%20remove%20padding%20on%20both.&text=This%20class%20sets%20padding%2Dtop,of%20navbar%20class%20to%200.&text=Thats%20it!
+-https://www.webdesignvista.com/how-to-decrease-the-height-of-navbar-on-bootstrap-4/#:~:text=To%20reduce%20height%20you%20need%20to%20remove%20padding%20on%20both.&text=This%20class%20sets%20padding%2Dtop,of%20navbar%20class%20to%200.&text=Thats%20it!
 
 Carousel Bootstrap:
 
-https://getbootstrap.com/docs/4.0/components/carousel/
+-https://getbootstrap.com/docs/4.0/components/carousel/
 
 
 ### Media
 Image source:
 
-https://www.pexels.com/
+-https://www.pexels.com/
 
 ### Acknowledgements
 
