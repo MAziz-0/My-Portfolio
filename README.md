@@ -105,39 +105,39 @@ Target audience: Potential employers
     2. Tried to submit without a real email address and received correct error.
     4. Tested all form fields with correct information and submitted successfully.
 
-    ## Bugs
+    ### Bugs
 
  1. White space underneath each section. 
 
-    -Fix: Set margin and padding to 0, used internal CSS to set max-width and margin size for Paragraphs.
+    - Fix: Set margin and padding to 0, used internal CSS to set max-width and margin size for Paragraphs.
 
  2. Section heading borders overlapping when reducing screen size.
 
-    -Fix: Changed sections into fluid containders and utilised m-auto and reduces sizes of borders and text. Changed Section 2 into a span fit larger content.
+    - Fix: Changed sections into fluid containders and utilised m-auto and reduces sizes of borders and text. Changed Section 2 into a span fit larger content.
 
  3. Unable to change padding and margin for background images.
 
-    -Fix: Used display: flex instead of Position element to have more room for styling.
+    - Fix: Used display: flex instead of Position element to have more room for styling.
 
  4. Excess padding on Navigation bar.
 
-    -Fix: used py-0 to reduce padding.
+    - Fix: used py-0 to reduce padding.
 
  5. Carousel slides changing size based on content.
 
-    -Fix: Set an inline fixed height and width to keep the block the same size.
+    - Fix: Set an inline fixed height and width to keep the block the same size.
 
  6. Previous/Next button are not aligned in the center of the Carousel:
 
-    -Fix: Added a negative top number to push buttons to a new position.
+    - Fix: Added a negative top number to push buttons to a new position.
 
 7. Navigation toggler is not collapsing properly.
 
-    -Fix: Reduced margin to 0 and changed height of navigation bar toggler to fit content.
+    - Fix: Reduced margin to 0 and changed height of navigation bar toggler to fit content.
 
 8. Parallax feature does not work well on mobile devices.
 
-    -Fix: Added a media query to disable on mobile screen sizes
+    - Fix: Added a media query to disable on mobile screen sizes
 
 
 My-Portfolio is a single scrolling page which works well on both Desktop screens, Ipad screens and most smartphones.
