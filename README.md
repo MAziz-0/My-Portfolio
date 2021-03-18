@@ -14,7 +14,7 @@ Hopefully, this is one of the many projects I will undertake to create and add t
 
 ## UX
  
-### Main intention behind the UX on this website has been the dark theme with a minimalist approach to displaying information.
+### The main intention behind the user experience on this website is to appeal to potential employers who will need a Portfolio that is easily accessible and is intuitive in it's approach to promoting my soft/technical skills.
 
 The ways I approached this:
 
@@ -36,23 +36,23 @@ The ways I approached this:
 
 ## User Stories
 
-Target audience: Potential employers
+Target audience: Potential employer
 
 #### I would like to get more information on who this person is.
 
-- Information displayed using the Carousel and Sections presents a short introduction on what type of employee they can expect and what skills I have.
+The information displayed using the Carousel and Sections presents a short introduction on what type of employee I can expect and the developer's skills.
 
 #### I would like to see there work history.
 
-- The main link has been added to the Navigation bar, which allows the user to download a CV concerning my entire work history directly.
+- A CV link has been added to the Navigation bar, which allows me to download a CV containing all the relevant information pertaining to work history.
 
 #### Where can I find this person on other platforms to see what type of person they are.
 
-- Provided multiple social links in the footer, which allow the user to view my profile on other platforms and, most importantly, my Github, which would display projects.
+- Provided multiple social links in the footer, which allows me to view the developer's profile on other platforms and, most importantly, their Github, which would display projects.
 
 #### I want to work with this person; what is the best way to start working with them?
 
-- A contact form has been provided so the user can send in a project request; alternatively, they can find me on other platforms via the social links provided.
+- A contact form has been provided so I can easily send in a project request or a job specification; alternatively, I can find the developer on other platforms via the social links provided.
 
 
 ## Wireframe:
