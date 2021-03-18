@@ -18,13 +18,13 @@ Hopefully, this is one of the many projects I will undertake to create and add t
 
 The ways I approached this:
 
-1. Making sure that the main features used are apparent to the eye. The usage of parallax scrolling on images and an automatic Carousel left no room for excessive features and created a responsive and more dynamic website.
+1. Making sure that the main features used simple and intuitive. This has been achieved by using Parallax scrolling and Bootstap Carousel making a more responsive and dynamic website.
 
-2. Sections and Paragraphs are delineated to show the separate information using images to separate sections and dark colour palettes that guide the user through the site.
+2. Sections and Paragraphs are delineated to show information easily. The use of dark backgrounds allows the text to pop and works with overall tone of the website.
 
-3. Using a single scroll page to navigate three separate pages has allowed maximum efficiency and less room for disruption. Users can quickly view all the pages in a single scroll. Modern resumes tend to be short and concise; this inspired the website's design as this may be a potential selling point for an employer.
+3. Using a single scroll page to navigate three separate pages has allowed maximum efficiency and allows the user to stay on one page. Users can quickly view all the pages in a single scroll. Modern resumes tend to be short and concise; this inspired the website's design as this may be a potential selling point for an employer.
 
-4. Images used in the background are relevant to each section's titles, which ties the whole website into a promotional statement.  I intend to generate appeal, so it was essential to making sure there is a synergy between the content and my structured styling choice.
+4. Images used in the background are relevant to each section's titles, which ties the whole website into a promotional statement.  I intend to generate appeal, so it was essential to making sure there is a synergy between the content and my design choices.
 
 ## Design
 #### Colour Scheme
@@ -125,42 +125,43 @@ What methods I used to create a responsive and appealing website.
 
     ## Bugs
 
-1. White space underneath each section. 
+- White space underneath each section. 
 
-    Fix: Set margin and padding to 0, used internal CSS to set max-width and margin size for Paragraphs.
+   - Fix: Set margin and padding to 0, used internal CSS to set max-width and margin size for Paragraphs.
 
-2. Section heading borders overlapping when reducing screen size.
+- Section heading borders overlapping when reducing screen size.
 
-    Fix: Changed sections into fluid containers and utilised m-auto and reduces sizes of borders and text. Section 2 changed into a span to fit more extensive content.
+   - Fix: Changed sections into fluid containers and utilised m-auto and reduces sizes of borders and text. Section 2 changed into a span to fit more extensive content.
 
-3. Unable to change padding and margin for background images.
+- Unable to change padding and margin for background images.
 
-    Fix: Used display: flex instead of Position element to have more room for styling.
+   - Fix: Used display: flex instead of Position element to have more room for styling.
 
-4. Excess padding on the Navigation bar.
+- Excess padding on the Navigation bar.
 
-    Fix: used py-0 to reduce padding.
+   - Fix: used py-0 to reduce padding.
 
-5. Carousel slides changing size based on content.
+- Carousel slides changing size based on content.
 
-    Fix: Set an inline fixed height and width to keep the block the same size.
+   - Fix: Set an inline fixed height and width to keep the block the same size.
 
-6. Previous/Next button unaligned in the centre of the Carousel:
+- Previous/Next button unaligned in the centre of the Carousel:
 
-    Fix: Added a negative top number to push buttons to a new position.
+   - Fix: Added a negative top number to push buttons to a new position.
 
-7. Navigation toggler is not collapsing correctly.
+- Navigation toggler is not collapsing correctly.
 
-    Fix: Reduced margin to 0 and changed the height of navigation bar toggle to fit the content.
+   -  Fix: Reduced margin to 0 and changed the height of navigation bar toggle to fit the content.
 
-8. Parallax feature does not work well on mobile devices.
+- Parallax feature does not work well on mobile devices.
 
-    Fix: Added a media query to disable the feature on mobile screen sizes.
+   -  Fix: Added a media query to disable the feature on mobile screen sizes.
 
 
-My-Portfolio is a single scrolling page that works well on Desktop screens, Ipad screens and most smartphones.
+ 
+## Validator Tools
 
-This website tested using HTML/CSS validator tools:
+ This website tested using HTML/CSS validator tools:
 
 https://validator.w3.org/
 
