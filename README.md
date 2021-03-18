@@ -70,9 +70,9 @@ What methods I used to create a responsive and appealing website.
  
 ### Existing Features
 
-- Feature 1 - The Bootstrap-based Navigation toggler utilised to ensure a navigation bar that is both stylish and responsive to modern websites and smartphones. When using the website on a low pixel count, the toggler uses the three-line toggle (also known as the hamburger toggler) to minimise the menu.
-- Feature 2 - Using Parallax scrolling is a feature intended as a design choice to make the website appealing and easy on the eyes. Potential employers or fellow developers are the target audience, so I deemed it necessary to create a website that performs well and has aesthetic value.
-- Feature 3 - Bootstrap Carousel was applied to create a modern and automated approach to displaying information; having a moving slide alongside a parallax scroll feature was used to make the website look more dynamic and animated and made it necessary to fit more information in a single scrolling page without having to link new pages.
+- Feature 1 - The Bootstrap-based Navigation toggler has been utilised to ensure that the navigation bar is both stylish and responsive on modern browsers and smartphone browsers. When using the website on a low pixel count, the toggler uses the three-line toggle (also known as the hamburger toggler) to minimise the menu.
+- Feature 2 - Parallax scrolling was implemented to make the website appealing and easy on the eyes. Potential employers or fellow developers are the target audience, so I deemed it necessary to create a website that performs well and has aesthetic value.
+- Feature 3 - Bootstrap Carousel was applied to create a modern and automated approach to displaying information; having a moving slide alongside a parallax scroll feature was used to make the website look more dynamic and animated and made it easier to fit more information in a single scrolling page without having to link new pages.
 
 ## Technologies Used
 
