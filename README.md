@@ -18,9 +18,9 @@ Hopefully, this is one of the many projects I will undertake to create and add t
 
 The ways I approached this:
 
-1. Making sure that the main features used simple and intuitive. This has been achieved by using Parallax scrolling and Bootstap Carousel making a more responsive and dynamic website.
+1. Making sure that the main features used are intuitive and straightforward. This has been achieved by using Parallax scrolling and Bootstrap Carousel making a more responsive and dynamic website.
 
-2. Sections and Paragraphs are delineated to show information easily. The use of dark backgrounds allows the text to pop and works with overall tone of the website.
+2. Sections and Paragraphs are delineated to show information easily. The use of dark backgrounds allows the text to pop and works with the website's overall tone.
 
 3. Using a single scroll page to navigate three separate pages has allowed maximum efficiency and allows the user to stay on one page. Users can quickly view all the pages in a single scroll. Modern resumes tend to be short and concise; this inspired the website's design as this may be a potential selling point for an employer.
 
@@ -151,13 +151,17 @@ What methods I used to create a responsive and appealing website.
 
 - Navigation toggler is not collapsing correctly.
 
-   -  Fix: Reduced margin to 0 and changed the height of navigation bar toggle to fit the content.
+   -  Fix: Reduced margin to 0 and changed the navigation bar's toggle to fit the content.
 
 - Parallax feature does not work well on mobile devices.
 
    -  Fix: Added a media query to disable the feature on mobile screen sizes.
 
+### Further Testing
 
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhone X.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
  
 ## Validator Tools
 
@@ -189,7 +193,7 @@ The project was deployed to GitHub Pages using the following steps.
 
 ### Forking the GitHub Repository
 
-By forking the GitHub Repository, we make a copy of the original Repository on our GitHub account to view and/or make changes without affecting the original Repository by using the following steps.
+By forking the GitHub Repository, we make a copy of the original Repository on our GitHub account to view or make changes without affecting the original Repository by using the following steps.
 
 1. Log in to GitHub and locate the relevant Repository.
 2. At the top of the Repository (not top of page), just above the "Settings" button on the menu, locate the "Fork" button.
